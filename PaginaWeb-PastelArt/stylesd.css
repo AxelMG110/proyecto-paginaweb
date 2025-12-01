@@ -1,0 +1,241 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f953c6;  
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  
+    background: linear-gradient(to right, #b91d73, #f953c6);
+}
+
+header {
+    background: #f953c6;  
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  
+    background: linear-gradient(to right, #b91d73, #f953c6);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFBEEA;
+    padding: 10px;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ol li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ol li a {
+    color: #FF319F;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ol li a:hover {
+    background-color: #FFB4DC;
+    border-radius: 5px;
+}
+
+nav ol li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFB4DC;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+nav ol li:hover ul {
+    display: block;
+}
+
+nav ol li ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li ul li a {
+    padding: 10px;
+    display: block;
+}
+
+section {
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1 {
+    color: #FF319F;
+    text-decoration: underline;
+}
+section h1 {
+    color: #030001;
+    text-decoration: underline;
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-style: bold;
+
+}
+
+
+ul {
+   text-align: center;
+}
+
+
+ #cotizacion {
+            background-color: #ffe0e6; /* Fondo rosa pastel muy claro */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px; /* Ajustar ancho máximo */
+            margin: 80px auto; /* Ajustar margen superior */
+            text-align: left;
+        }
+
+        #cotizacion h1 {
+            color: #FF319F; /* Rosa fuerte para el título "Registrate" */
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #cotizacion dt {
+            color: #ad1457; /* Rosa medio fuerte para la descripción */
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #cotizacion .container {
+            padding: 0; /* Eliminar padding interno del contenedor del formulario */
+        }
+
+        #cotizacion .container h2 {
+            color: #e91e63; /* Rosa fuerte para el título del formulario */
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+
+        #cotizacion .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        #cotizacion .form-group {
+            width: calc(50% - 10px); /* Aproximadamente la mitad del ancho con un pequeño margen */
+            margin-bottom: 15px;
+        }
+
+        #cotizacion .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #ad1457; /* Rosa medio fuerte para las etiquetas */
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        #cotizacion .form-group input[type="text"],
+        #cotizacion .form-group select,
+        #cotizacion .form-group input[type="file"] {
+            width: calc(100% - 12px);
+            padding: 10px;
+            border: 1px solid #f48fb1; /* Borde rosa pastel medio */
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 1em;
+            color: #333;
+            background-color: white; /* Fondo blanco para los campos */
+        }
+
+        #cotizacion .form-group select {
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%23f48fb1" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+            background-repeat: no-repeat;
+            background-position-x: 97%;
+            background-position-y: center;
+            padding-right: 25px;
+        }
+        .container-imagen {
+    margin-bottom: 20px; /* Espacio inferior similar a otros grupos */
+}
+
+.container-imagen label {
+    display: block;
+    margin-bottom: 8px; /* Espacio inferior similar a otras etiquetas */
+    color: #ad1457; /* Color de texto similar a otras etiquetas */
+    font-weight: bold; /* Texto en negrita similar a otras etiquetas */
+    font-size: 1.1em; /* Tamaño de fuente similar a otras etiquetas */
+}
+        .container-imagen input[type="file"] {
+    width: calc(100% - 16px); /* Ancho similar a otros inputs */
+    padding: 12px; /* Padding similar a otros inputs */
+    border: 1px solid #f48fb1; /* Borde similar a otros inputs */
+    border-radius: 8px; /* Bordes redondeados similar a otros inputs */
+    box-sizing: border-box;
+    font-size: 1.1em; /* Tamaño de fuente similar a otros inputs */
+    color: #333;
+    background-color: white; /* Fondo blanco similar a otros inputs */
+}
+
+
+        #cotizacion button[type="button"] {
+            background: linear-gradient(to right, #f06292, #e1bee7);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            width: 100%;
+            transition: background 0.3s ease;
+            margin-top: 20px;
+        }
+
+        #cotizacion button[type="button"]:hover {
+            background: linear-gradient(to right, #e91e63, #ba68c8);
+        }
+
+footer {
+    background-color: #FF61B5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

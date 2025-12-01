@@ -1,0 +1,290 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    background: #ff59b4;
+    background: linear-gradient(90deg,rgba(255, 89, 180, 1) 0%, rgba(255, 122, 193, 1) 50%, rgba(255, 59, 180, 1) 98%);
+
+}
+
+
+header 
+{
+    background: #ff59b4;
+    background: linear-gradient(90deg,rgba(255, 89, 180, 1) 0%, rgba(255, 122, 193, 1) 50%, rgba(255, 59, 180, 1) 98%);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+     font-family: garamond;
+}
+
+
+nav 
+{
+    background-color: #FFDFF3  ;
+    padding: 10px;
+}
+
+
+nav ol 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ol li 
+{
+    margin: 0 15px;
+    position: relative;
+}
+
+
+nav ol li a {
+    color: #DB0088  ;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ol li a:
+ {
+    background-color: #FFB4DC;
+    border-radius: 5px;
+}
+
+nav ol li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFB4DC;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+nav ol li:hover ul {
+    display: block;
+}
+
+nav ol li ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li ul li a {
+    padding: 10px;
+    display: block;
+}
+
+section {
+    padding: 20px;
+    background-color: #FFDFF3  ;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center; 
+    margin-top: 0;    
+    margin-bottom: 0; 
+    font-size: 3em; 
+
+} 
+
+h2 {
+    color: #FFFFFF    ; /* Rosa fuerte para el título del formulario */
+    text-align: center; /* Centrar el título */
+    margin-top: 0;    /* Elimina el espacio arriba del h1 */
+    margin-bottom: 0px; /* Elimina el espacio abajo del h1 */
+    font-size: 2.5em; /* Hacer el título más grande */
+    -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color:#DB0088 ;
+   font-family: Arial black;
+}
+
+
+h3 {
+    color: #DB0088  ; /* Rosa fuerte para el título del formulario */
+    text-align: center; /* Centrar el título */
+    margin-top: 0;    /* Elimina el espacio arriba del h1 */
+    margin-bottom: 0; /* Elimina el espacio abajo del h1 */
+    font-size: 2em; /* Hacer el título más grande */
+
+}
+
+
+h4 {
+    color: #DB0088  ; /* Rosa fuerte para el título del formulario */
+    text-align: center; /* Centrar el título */
+    margin-top: 0;    /* Elimina el espacio arriba del h1 */
+    margin-bottom: 0; /* Elimina el espacio abajo del h1 */
+    font-size: 1.5em; /* Hacer el título más grande */
+
+}
+
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: unset;
+    font-size: 80 px;
+    color:#B11A78    ;
+    text-align: justify center;
+}
+
+
+p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: unset;
+    font-size: 50 px;
+    color:#B11A78    ;
+    text-align: justify center;
+}
+
+p.boton {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: unset;
+    font-size: 50 px;
+    color: #F10698;
+    text-align: center;
+
+
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 columnas en pantallas grandes, se adaptan */
+    gap: 25px;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.image-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.image-item img {
+    width: 100%; 
+    height: 350px; 
+    object-fit: cover; 
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+
+.description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 224, 255, 0.75);
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    transform: translateY(100%); 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+.description h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    color: ;
+}
+
+.description p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+
+
+
+.image-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+.image-item:hover img {
+    transform: scale(1.1); 
+}
+
+
+.image-item:hover .description {
+    transform: translateY(0);
+    opacity: 1; 
+}
+
+
+@media (max-width: 900px) {
+    .gallery-container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    .image-item {
+        margin-bottom: 15px;
+    }
+}
+
+
+
+.map-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px;
+  border: 20px solid blue;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 450px;
+  display: block;
+  border: 0; 
+}
+
+footer {
+    background-color: #FF61B5;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+}

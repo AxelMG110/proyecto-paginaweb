@@ -1,0 +1,346 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    background: #ff59b4;
+    background: linear-gradient(90deg,rgba(255, 89, 180, 1) 0%, rgba(255, 122, 193, 1) 50%, rgba(255, 59, 180, 1) 98%);
+
+}
+
+header {
+    background: #ff59b4;
+    background: linear-gradient(90deg,rgba(255, 89, 180, 1) 0%, rgba(255, 122, 193, 1) 50%, rgba(255, 59, 180, 1) 98%);
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+     font-family: garamond;
+}
+
+nav {
+    background-color: #FFDFF3  ;
+    padding: 10px;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ol li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ol li a {
+    color: #DB0088  ;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ol li a:hover {
+    background-color: #FFB4DC;
+    border-radius: 5px;
+}
+
+nav ol li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFB4DC;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+nav ol li:hover ul {
+    display: block;
+}
+
+nav ol li ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li ul li a {
+    padding: 10px;
+    display: block;
+}
+
+section {
+    padding: 20px;
+    background-color: #FFDFF3  ;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.quienes-somos-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.titulo-quienes-somos {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px; 
+    
+}
+
+.quienes-somos-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.quienes-somos-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.quienes-somos-image img {
+    max-width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.quienes-somos-text {
+    flex: 2;
+    min-width: 300px;
+    color:#8E045A;  
+}
+
+.subtitulo-pasteleria {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.texto-descripcion {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+   color:#8E045A;  
+    text-align: justify; 
+}
+
+
+
+
+
+
+
+.info-section1 {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.info-section1 h2 {
+    text-align: center;
+    color: #a0522d; 
+    margin-bottom: 10px;
+}
+
+.info-content1 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 40px; 
+    flex-wrap: wrap;
+}
+
+.info-image1 {
+    flex: 1;
+    min-width: 350px; 
+    text-align: center;
+}
+
+.info-image1 img {
+    max-width: 100%;
+    height: 400px;
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+.info-text1 {
+    flex: 2;
+    min-width: 350px;
+}
+
+.info-text1 p {
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    text-align: justify;
+   color:#8E045A;  
+}
+
+.info-text1 ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.info-text1 ul li {
+    background-color: #f5f5f5; 
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #FF06A1  ; 
+    border-radius: 5px;
+    font-size: 1.05em;
+    color: #444;
+}
+
+.info-text1 ul li strong {
+    color: #FF06A1  ; 
+
+}
+
+
+.info-section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.info-section h2 {
+    text-align: center;
+    color: #a0522d; 
+    margin-bottom: 10px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    gap: 40px; 
+    flex-wrap: wrap;
+}
+
+.info-image {
+    flex: 1;
+    min-width: 350px; 
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    height: 400px;
+    border-radius: 12px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+.info-text {
+    flex: 2;
+    min-width: 350px;
+}
+
+.info-text p {
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    text-align: justify;
+   color:#8E045A;  
+}
+
+.info-text ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.info-text ul li {
+    background-color: #f5f5f5; 
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #FF06A1  ; 
+    border-radius: 5px;
+    font-size: 1.05em;
+    color: #444;
+}
+
+.info-text ul li strong {
+    color: #FF06A1  ; 
+
+}
+
+
+@media (max-width: 992px) {
+    .quienes-somos-section,
+    .info-section {
+        padding: 40px 15px;
+        margin: 30px auto;
+    }
+
+    .titulo-quienes-somos {
+        font-size: 2.5em;
+    }
+
+    .subtitulo-pasteleria {
+        font-size: 1.8em;
+    }
+
+    .info-section h2 {
+        font-size: 2em;
+    }
+
+    .info-content {
+        flex-direction: column; 
+        gap: 25px;
+    }
+
+    .quienes-somos-image,
+    .quienes-somos-text,
+    .info-image,
+    .info-text {
+        min-width: unset; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .info-text p, .info-text ul li {
+        text-align: center; 
+    }
+}
+
+@media (max-width: 576px) {
+    .page-header h1 {
+        font-size: 2.5em;
+    }
+    .page-header p {
+        font-size: 1em;
+    }
+    .titulo-quienes-somos {
+        font-size: 2em;
+    }
+    .subtitulo-pasteleria {
+        font-size: 1.5em;
+    }
+    .info-section h2 {
+        font-size: 1.8em;
+    }
+    .info-text p, .info-text ul li {
+        font-size: 1em;
+    }
+}

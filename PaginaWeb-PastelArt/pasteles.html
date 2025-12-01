@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Artesanal</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+ <link rel="stylesheet" href="styles.css"> 
+       <h1> <img src="logo.PNG" alt="logo.png" 
+    style="width: 100px;height:100px; float:left header"> PASTEL ARTESANAL<img src="logo.PNG" alt="logo.png" 
+    style="width: 100px;height:100px; float:left header"></h1>
+    </header>
+    <nav>
+        <ol>
+            <li><a href="pastel.html">Inicio</a></li>
+            <li><a href="mv.html">Acerca de nosotros</a></li>
+            <li><a href="#">Servicios</a>
+            <ul>
+            <li id="pasteles"><a href="pasteles.html">PASTELES</a></li>
+            <li id="cupcake"><a href="cupcakes.html">CUPCAKES</a></li>
+            <li id="brownies"><a href="brownies.html">BROWNIES</a></li>
+            <li id="donas"><a href="donas.html">DONAS</a></li>
+             <li id="postre"><a href="postre.html">POSTRES MINI</a></li>
+            </ul>
+            </li>
+            <li id="contacto"><a href="#">Contacto</a>
+                <ul>
+                <li><a href="https://www.facebook.com/share/15bF7uMjEw/?mibextid=wwXIfr">FACEBOOK</a></li>
+            <li><a href="https://www.instagram.com/pastelartesanal_2010?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></li>
+            <li><a href="https://wa.me/5215549163333">WHATSAPP</a></li>
+                </ul>
+                </li>
+            <li><a href="registro.html">Registrate</a></li>        
+        </ol>
+    </nav>
+
+    <center>
+    <section id="cotizacion">
+
+        <h1 style="color:#FF319F;">PASTELES PERSONALIZADOS</h1>
+        <dt>COTIZA TU DISEÑO 100% PERSONALIZADO </dt>
+
+        <div class="container">
+            <h2>Realiza tu cotización</h2>
+            <form action="" method="">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                </div>
+            </div>
+
+
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="personas">NO. personas</label>
+                    <select id="personas" name="personas" required>
+                        <option value="">-- Selecciona --</option>
+                        <option value="1">1</option>
+                        <option value="4">4</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                        <option value="70">70</option>
+                        <option value="80">80</option>
+                        <option value="90">90</option>
+                        <option value="100">100</option>
+                        <option value="+100">150+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sabor_bizcocho">Sabor Bizcocho</label>
+                    <select id="sabor_bizcocho" name="sabor_bizcocho" required>
+                        <option value="">-- Selecciona --</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vainilla">Vainilla</option>
+                    </select>
+                </div>
+            </div>
+
+                <div class="form-row">
+                <div class="form-group">
+                    <label for="sabor_leche">Sabor Leche</label>
+                    <select id="sabor_leche" name="sabor_leche">
+                        <option value="">-- Selecciona --</option>
+                        <option value="natural">Natural</option>
+                        <option value="rompope">Rompope</option>
+                        <option value="baileys">Baileys</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="zona">Zona de entrega</label>
+                    <select id="zona" name="zona" required>
+                        <option value="">-- Selecciona --</option>
+                        <option value="Nicolas Romero">Nicolas Romero</option>
+                        <option value="Atizapan">Atizapán</option>
+                        <option value="Cuautitlan Izcalli">Cuautitlán Izcalli</option>
+                        <option value="Tlalnepantla de Baz">Tlalnepantla de Baz</option>
+                        <option value="Tultitlán">Tultitlán</option>
+                        <option value="CDMX">CDMX</option>
+                    </select>
+                </div>
+            </div>
+
+                    <div class="container-imagen">
+                      <center>
+                    <label for="imagen">Recuerda adjuntar la imagen de tu diseño de referencia posterior a tu mensaje de cotización</label>
+                      </center>
+                    </div>
+                   
+         
+            
+                <button type="button" onclick="enviarCotizacionWhatsApp()">Enviar Cotización por WhatsApp</button>
+            </form>
+        </section>    
+        </center>
+
+    <footer>
+        <p>&copy; PASTEL ARTESANAL</p>
+    </footer>
+</body>
+</html>
